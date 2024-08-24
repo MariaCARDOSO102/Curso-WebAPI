@@ -1,0 +1,140 @@
+### Visual Studio ###
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.vscode/*
+.history/
+*.code-workspace
+
+# VS Code Workspace Storage files
+.vscode/**/workspaceStorage/
+
+# VS Code specific settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Temporary VS Code files
+.vscode/*.{log,cache}
+*.code-workspace
+*.vscode-backup/
+
+# Visual Studio Code Backup and Cache directories
+.vscode/*/
+.vscode/cache/
+.vscode/sessions/
+.vscode/storage/
+
+### Visual Studio Installer ###
+.vs/
+.vs/**/*.*
+.vsconfig
+.vs/**/.vscode/
+
+# Backup files from extension .bak
+*.bak
+
+### Visual Studio for Mac ###
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+**/.vscode/testResults/
+
+### Microsoft SQL Server ###
+*.mdf
+*.ldf
+
+### ASP.NET Scaffolding ###
+ScaffoldingReadMe.txt
+
+### NuGet ###
+*.nupkg
+# NuGet Packages folder
+packages/
+# NuGet v3's project.json files produces this file
+project.lock.json
+# NuGet packages cache
+.nuget/
+# NuGet Symbol packages
+*.snupkg
+
+### Rider ###
+.idea/
+.idea/workspace.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/.idea
+
+# Rider-specific files
+.idea/.idea_modules/
+.idea/.idea/
+.idea/dotSettings
+.idea/dotSettings.user
+.idea/shelf
+.idea/tasks
+.idea/modules
+
+### Windows ###
+# Windows shortcuts
+*.lnk
+# Iconcache database
+IconCache.db
+
+### Visual Studio Code Extensions ###
+*.vsix
+*.vscode/extensions/
+
+# Sensitive files
+*.key
+*.pem
+*.pfx
+*.cer
+*.crt
+
+### Miscellaneous ###
+*.vsixmanifest
+*.vscode-test/
+
+# Logs
+*.log
+*.tlog
+
+# .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
