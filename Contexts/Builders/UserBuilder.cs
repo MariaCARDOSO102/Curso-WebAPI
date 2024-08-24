@@ -8,16 +8,16 @@ namespace ReserveiAPI.Contexts.Builders
         public static void Build(ModelBuilder modelBuilder)
         {
             // Builder
-            modelBuilder.Entity<UserDTO>().HasKey(u => u.Id);
-            modelBuilder.Entity<UserDTO>().Property(u => u.ImageProfile);
-            modelBuilder.Entity<UserDTO>().Property(u => u.NameUser).HasMaxLength(100).IsRequired();
-            modelBuilder.Entity<UserDTO>().Property(u => u.EmailUser).HasMaxLength(200).IsRequired();
-            modelBuilder.Entity<UserDTO>().Property(u => u.PasswordUser).HasMaxLength(256).IsRequired();
-            modelBuilder.Entity<UserDTO>().Property(u => u.PhoneUser).HasMaxLength(15).IsRequired();
+            modelBuilder.Entity<UserModel>().HasKey(u => u.Id);
+            modelBuilder.Entity<UserModel>().Property(u => u.ImageProfile);
+            modelBuilder.Entity<UserModel>().Property(u => u.NameUser).HasMaxLength(100).IsRequired();
+            modelBuilder.Entity<UserModel>().Property(u => u.EmailUser).HasMaxLength(200).IsRequired();
+            modelBuilder.Entity<UserModel>().Property(u => u.PasswordUser).HasMaxLength(256).IsRequired();
+            modelBuilder.Entity<UserModel>().Property(u => u.PhoneUser).HasMaxLength(15).IsRequired();
 
             // Inserções 
-            modelBuilder.Entity<UserDTO>().HasData(
-                new UserDTO
+            modelBuilder.Entity<UserModel>().HasData(
+                new UserModel
                 {
                     Id = 1,
                     NameUser = "master@development.com",
