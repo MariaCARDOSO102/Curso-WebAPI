@@ -274,7 +274,7 @@ namespace ReserveiAPI.Controllers
             }
         }
 
-        [HttpDelete("Delete/{id:int")]
+        [HttpDelete("Delete/{id:int}")]
 
         public async Task<ActionResult<UserDTO>> Delete(int id)
         {

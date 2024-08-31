@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserveiAPI", "ReserveiAPI.csproj", "{B5C6261F-7A4B-4309-81EB-67B64E297648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserveiAPI", "ReserveiAPI.csproj", "{5B12DA5E-2340-4288-9801-62AB706FF954}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B5C6261F-7A4B-4309-81EB-67B64E297648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5C6261F-7A4B-4309-81EB-67B64E297648}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5C6261F-7A4B-4309-81EB-67B64E297648}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5C6261F-7A4B-4309-81EB-67B64E297648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B12DA5E-2340-4288-9801-62AB706FF954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12DA5E-2340-4288-9801-62AB706FF954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12DA5E-2340-4288-9801-62AB706FF954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12DA5E-2340-4288-9801-62AB706FF954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DC471E5F-311C-4819-AA9D-AB927B7BC059}
+		SolutionGuid = {522A0898-5FAE-4B75-832F-E7BA7126D48F}
 	EndGlobalSection
 EndGlobal
