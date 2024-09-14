@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ReserveiAPI.Contexts;
+﻿using Microsoft.EntityFrameworkCore; //
+using ReserveiAPI.Contexts; //
 using ReserveiAPI.Objects.Contracts;
-using ReserveiAPI.Objects.Models.Entities;
-using ReserveiAPI.Repositories.Interfaces;
+using ReserveiAPI.Objects.Models.Entities; //
+using ReserveiAPI.Repositories.Interfaces; //
 
 namespace ReserveiAPI.Repositories.Entities
 {

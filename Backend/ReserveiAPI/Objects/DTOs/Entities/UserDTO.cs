@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ReserveiAPI.Objects.Utilities;
+using System.ComponentModel.DataAnnotations;
 
 namespace ReserveiAPI.Objects.DTOs.Entities
 {
@@ -6,7 +8,7 @@ namespace ReserveiAPI.Objects.DTOs.Entities
     {
         public int Id { get; set; }
 
-        public string? ImageUser { get; set; }
+        public string? ImageProfile { get; set; }
 
         [Required(ErrorMessage = "O nome é requerido!")]
         [MaxLength(100)]

@@ -16,7 +16,7 @@ const SignIn = ({ onSignUpClick }) => {
         event.preventDefault();
 
         try {
-            const response = await axios.post('https://localhost:7266/api/User/Login', {
+            const response = await axios.post('https://localhost:7031/api/User/Login', {
                 email,
                 password,
             });
